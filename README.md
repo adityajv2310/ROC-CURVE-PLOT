@@ -1,5 +1,5 @@
 ### EX NO : 07
-### DATE  :
+### DATE  : 09.05.2022
 # <p align="center"> ROC CURVE PLOT </p>
 ## Aim:
    To write python code to plot ROC curve used in ANN.
@@ -8,13 +8,14 @@
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner /Google Colab
 
 ## Related Theory Concept:
-The receiver operating characteristic (ROC) curve is frequently used for evaluating the performance of binary classification algorithms. It provides a graphical representation of a classifier’s performance, rather than a single value like most other metrics. First, let’s establish that in binary classification, there are four possible outcomes for a test prediction: true positive, false positive, true negative, and false negative. The ROC curve is produced by calculating and plotting the true positive rate against the false positive rate for a single classifier at a variety of thresholds.
+The receiver operating characteristic (ROC) curve is frequently used for evaluating the performance of binary classification algorithms. It provides a graphical representation of a classifier’s performance, rather than a single value like most other metrics.
+First, let’s establish that in binary classification, there are four possible outcomes for a test prediction: true positive, false positive, true negative, and false negative.
+The ROC curve is produced by calculating and plotting the true positive rate against the false positive rate for a single classifier at a variety of thresholds.
 
-Uses of ROC Curve :
+#### Uses of ROC Curve :
+One advantage presented by ROC curves is that they aid us in finding a classification threshold that suits our specific problem.
 
-1.One advantage presented by ROC curves is that they aid us in finding a classification threshold that suits our specific problem.
-
-2.On the other hand, if our classifier is predicting whether someone has a terminal illness, we might be ok with a higher number of false positives (incorrectly diagnosing the illness), just to make sure that we don’t miss any true positives (people who actually have the illness).
+On the other hand, if our classifier is predicting whether someone has a terminal illness, we might be ok with a higher number of false positives (incorrectly diagnosing the illness), just to make sure that we don’t miss any true positives (people who actually have the illness).
 
 ## Algorithm
 1. Import Necessary Packages
@@ -27,11 +28,10 @@ Uses of ROC Curve :
 ```
 /*
 Program to plot Receiver Operating Characteristic [ROC] Curve.
-Developed by   : Aditya JV
-RegisterNumber : 212220230002  
+Developed by   : ADITYA JV
+RegisterNumber :  212220230002
 */
 ```
-
 ```python
 import pandas as pd
 import numpy as np
@@ -75,8 +75,7 @@ plt.show()
 ```
 
 ## Output:
-![NN Exp7](https://user-images.githubusercontent.com/75235386/169330733-fb885368-c4a7-481e-af1d-29a6ff94af6f.png)
-
+![Capture](https://user-images.githubusercontent.com/75235747/169424710-60e89d05-4054-44e4-a932-913e1da9b231.JPG)
 
 ## Result:
 Thus the python program successully plotted Receiver Operating Characteristic [ROC] Curve.
